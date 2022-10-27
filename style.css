@@ -50,13 +50,19 @@
    width: 100% ;
    border-bottom: 4px #777064 solid;
 }
-.titulo-cardapio{
+.titulo-cardapio,
+.titulo-galeria{
     margin-top: 30px;
     font-family: 'cookie';
     font-weight: normal;
     font-size: 45px;
-    color: #777064;
+    color: white ;
     text-align: center;
+}
+
+.titulo-cardapio{
+    color: #777064;
+    padding-bottom: 20px;
 }
 
 .lista-cardapio{
@@ -65,4 +71,26 @@
     font-family: 'roboto';
     color: #6b705c;
     list-style: none;
+}
+
+.galeria-fotos{
+    background-color: #777064;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.linha-fotos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto-bolo{
+ border: 5px solid #ffe8d6;
+ border-radius: 3px
+}
+
+.foto-bolo:hover{
+    border-color: aquamarine;
+    cursor: crosshair;
+    transform: scale(1.1);
 }
