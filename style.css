@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .site-inteiro{
     width: 1000px;
     margin: 0 auto;
@@ -21,13 +25,16 @@
       padding-bottom: 20px ;
 }
 
-.titulo{
+.titulo,
+.titulo-rodape{
     font-family: cookie;
     color: white;
     font-size: 60px;
     line-height: 45px;
     font-weight: normal
+
 }
+
 
 .titulo-pequeno{
     font-size: 30px;
@@ -104,5 +111,23 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.rodape{
+    text-align: center;
+    border-top: 5px solid #777064;
+    padding: 20px;
+}
+
+.titulo-rodape{
+    color: #777064;
+    font-weight: normal;
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.redes-socias a {
+    text-decoration: none;
 }
 
