@@ -51,16 +51,20 @@
    border-bottom: 4px #777064 solid;
 }
 .titulo-cardapio,
-.titulo-galeria{
+.titulo-galeria,
+.titulo-contato{
     margin-top: 30px;
     font-family: 'cookie';
     font-weight: normal;
     font-size: 45px;
     color: white ;
     text-align: center;
+    margin-bottom: 15px;
 }
 
-.titulo-cardapio{
+.titulo-cardapio,
+.titulo-contato
+{
     color: #777064;
     padding-bottom: 20px;
 }
@@ -86,11 +90,19 @@
 
 .foto-bolo{
  border: 5px solid #ffe8d6;
- border-radius: 3px
+ border-radius: 3px;
+ transition: all 0.5s ease;
 }
 
 .foto-bolo:hover{
     border-color: aquamarine;
     cursor: crosshair;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
+
+.mapa{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
